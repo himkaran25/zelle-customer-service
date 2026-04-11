@@ -28,6 +28,11 @@
       text-align: center;
     }
 
+    header a {
+      color: #fff;
+      text-decoration: underline;
+    }
+
     .container {
       max-width: 900px;
       margin: 40px auto;
@@ -65,6 +70,15 @@
       color: #666;
       margin: 30px 0;
     }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+      header {
+        padding: 20px 10px;
+      }
+    }
   </style>
 </head>
 
@@ -73,15 +87,30 @@
 <header>
   <h1>How to Connect With Zelle® Support</h1>
   <p>A simple guide to getting help the right way</p>
+
+  <!-- Added Phone Number -->
+  <p style="margin-top:10px; font-size:18px;">
+    📞 Support Number: 
+    <a href="tel:+18335395484">+1 (833) 539-5484</a>
+  </p>
 </header>
 
-<div class="container">
+<div class="container" role="main">
 
   <p>
     Zelle® is a popular digital payment service that allows users to send and receive money directly through their bank.
     If you experience issues such as failed transfers, incorrect recipients, or account access problems, it’s important
-    to contact support through **official and secure channels**.
+    to contact support through <strong>official and secure channels</strong>.
   </p>
+
+  <!-- Added Highlight Box -->
+  <div class="note">
+    <strong>Support Contact:</strong><br>
+    📞 Phone: <a href="tel:+18335395484">+1 (833) 539-5484</a><br>
+    <span style="font-size:12px;color:#777;">
+      Always verify contact details through official sources.
+    </span>
+  </div>
 
   <h2>1. Contact Your Bank or Credit Union</h2>
   <p>
