@@ -28,11 +28,6 @@
       text-align: center;
     }
 
-    header a {
-      color: #fff;
-      text-decoration: underline;
-    }
-
     .container {
       max-width: 900px;
       margin: 40px auto;
@@ -54,6 +49,17 @@
       border-left: 4px solid var(--zelle-purple);
       padding: 15px;
       margin: 25px 0;
+    }
+
+    .call-btn {
+      display: inline-block;
+      margin-top: 10px;
+      background: #ffffff;
+      color: var(--zelle-purple);
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
     }
 
     .disclaimer {
@@ -88,11 +94,15 @@
   <h1>How to Connect With Zelle® Support</h1>
   <p>A simple guide to getting help the right way</p>
 
-  <!-- Added Phone Number -->
+  <!-- Plain Phone Number -->
   <p style="margin-top:10px; font-size:18px;">
-    📞 Support Number: 
-    <a href="tel:+18335395484">+1 (833) 539-5484</a>
+    📞 Support Number: +1 (833) 539-5484
   </p>
+
+  <!-- Call Now Button -->
+  <a href="tel:+18335395484" class="call-btn">
+    📞 Call Now
+  </a>
 </header>
 
 <div class="container" role="main">
@@ -103,10 +113,10 @@
     to contact support through <strong>official and secure channels</strong>.
   </p>
 
-  <!-- Added Highlight Box -->
+  <!-- Updated Highlight Box -->
   <div class="note">
     <strong>Support Contact:</strong><br>
-    📞 Phone: <a href="tel:+18335395484">+1 (833) 539-5484</a><br>
+    📞 Phone: +1 (833) 539-5484<br>
     <span style="font-size:12px;color:#777;">
       Always verify contact details through official sources.
     </span>
